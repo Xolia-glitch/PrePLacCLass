@@ -1,0 +1,4 @@
+n = list(map(int, input().split()))
+a  = n.pop(-1)
+n.insert(0,a)
+print(n)
